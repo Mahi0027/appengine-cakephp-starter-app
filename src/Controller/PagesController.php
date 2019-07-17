@@ -37,6 +37,7 @@ class PagesController extends AppController
      */
     public function display()
     {
+	echo "hello";
         $path = func_get_args();
 
         $count = count($path);
